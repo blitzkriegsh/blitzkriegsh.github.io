@@ -463,8 +463,18 @@ h6 {
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 40px;
-  font-size: 24px;
+  margin-bottom: 20px;
+  font-size: 28.6px;
+}
+
+#hero h3 {
+  color: #eee;
+  margin-bottom: 20px;
+  font-size: 28.6px;
+}
+
+#college_name {
+  font-size: 15px;
 }
 
 #hero .play-btn {
@@ -663,7 +673,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Events
 --------------------------------------------------------------*/
 .services .icon-box {
   padding: 60px 30px;
@@ -784,10 +794,9 @@ section {
   color: #009961;
 }
 
-.features .icon-box p {
-  font-size: 15px;
+.features p {
+  font-size: 20px;
   color: #848484;
-  margin-left: 60px;
 }
 
 .features .image {
