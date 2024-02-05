@@ -10897,7 +10897,7 @@ p {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   width: 70%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 #mainNav .navbar-brand {
   color: #e6a756;
@@ -10940,7 +10940,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(1, 53, 132, 0.50);
+  background-color: rgba(1, 53, 132, 0.40);
 }
 .cta .cta-inner {
   position: relative;
@@ -10950,20 +10950,32 @@ p {
   color: white;
   font-family: poppins;
 }
+
+.cta .cta-inner h5 {
+  color: #fdb353;
+  font-weight: 650;
+  font-size: 25px;
+}
+
+.cta .cta-inner p {
+  font-weight: 500;
+  font-style: italic;
+}
 .cta .cta-inner:before {
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   content: "";
   position: absolute;
   top: -0.5rem;
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  border: 0.15rem solid rgba(255, 255, 255, 0.75);
   z-index: -1;
 }
 
 .footer {
   background-color: rgba(2, 32, 96, 0.82);
+  font-family: poppins;
 }
 
 .intro {
@@ -11058,17 +11070,19 @@ p {
 
 .accordion-toggle {
   display: flex;
-  justify-content: space-between;
   align-items: left;
   padding: 10px;
   cursor: pointer;
-  background-color: #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.50);
+  font-family: poppins;
+  font-weight: 450;
 }
 
 .accordion-content {
   display: none;
   padding: 10px;
   text-align:justify;
+  font-family: poppins;
 }
 
 .accordion-item.active .accordion-content {
@@ -11079,6 +11093,7 @@ p {
   content: "+"; /* Plus sign by default */
   font-size: 20px;
   font-weight: bold;
+  margin-right: 10px; 
 }
 
 .accordion-item.active .accordion-toggle::before {
