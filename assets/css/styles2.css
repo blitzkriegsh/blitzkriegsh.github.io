@@ -10940,12 +10940,15 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(1, 53, 132, 0.50);
 }
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
+  background-color: rgba(0, 0, 122, 0.19);
+  color: white;
+  font-family: poppins;
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
@@ -10960,20 +10963,20 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(2, 32, 96, 0.82);
 }
 
 .intro {
   position: relative;
 }
-.intro #event-heading-upper {
+.event-heading-upper {
   font-size: 29.7px;
   font-weight: 700;
   color: white;
   font-family: poppins;
 }
 
-.intro #event-heading-lower {
+.event-heading-lower {
   font-size: 50px;
   font-weight: 400;
   color: #0dcaf0;
@@ -11084,16 +11087,23 @@ p {
 
 table {
   width: auto;
-  border-collapse: collapse;
   margin-top: 20px;
+  font-family: poppins;
+  color: white;
 }
 
 th, td {
-  border: 1px solid black;
   padding: 8px;
   text-align: left;
+  border-radius: 20px;
+  font-weight: 500;
+  font-style: italic;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: rgba(6, 100, 181, 0.5);
+  color: #0dcaf0;
+  font-weight: 500;
+  text-align: center;
+
 }
