@@ -10880,7 +10880,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  background-color: rgba(1, 53, 132, 0.70);
 }
 
 .btn-xl {
@@ -10965,6 +10965,19 @@ p {
 
 .intro {
   position: relative;
+}
+.intro #event-heading-upper {
+  font-size: 29.7px;
+  font-weight: 700;
+  color: white;
+  font-family: poppins;
+}
+
+.intro #event-heading-lower {
+  font-size: 50px;
+  font-weight: 400;
+  color: #0dcaf0;
+  font-family: poppins;
 }
 @media (min-width: 992px) {
   .intro .intro-img {
@@ -11067,4 +11080,20 @@ p {
 
 .accordion-item.active .accordion-toggle::before {
   content: "-"; /* Minus sign when active */
+}
+
+table {
+  width: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
 }
