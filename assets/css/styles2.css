@@ -10854,7 +10854,7 @@ p {
 }
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 4rem;
 }
 
@@ -11026,4 +11026,40 @@ p {
 
 .address strong {
   font-size: 1.2rem;
+}
+
+#Accordion code
+ /* Add custom styles if needed */
+ .accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 1px;
+}
+
+.accordion-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  text-align:justify;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.accordion-toggle::before {
+  content: "+"; /* Plus sign by default */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordion-item.active .accordion-toggle::before {
+  content: "-"; /* Minus sign when active */
 }
