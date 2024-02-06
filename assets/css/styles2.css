@@ -4332,8 +4332,6 @@ textarea.form-control-lg {
 }
 
 .accordion {
-  --bs-accordion-color: #212529;
-  --bs-accordion-bg: #fff;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
   --bs-accordion-border-width: 1px;
@@ -11125,9 +11123,7 @@ p {
 }
 
 #Accordion code
- /* Add custom styles if needed */
  .accordion-item {
-  border: 1px solid #ddd;
   margin-bottom: 1px;
 }
 
@@ -11136,9 +11132,10 @@ p {
   align-items: left;
   padding: 10px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: rgba(255, 255, 255, 0.10);
   font-family: poppins;
   font-weight: 450;
+  border-radius: 5px;
 }
 
 .accordion-content {
@@ -11153,21 +11150,25 @@ p {
 }
 
 .accordion-toggle::before {
-  content: "+"; /* Plus sign by default */
+  content: "+"; 
   font-size: 20px;
   font-weight: bold;
   margin-right: 10px; 
 }
 
 .accordion-item.active .accordion-toggle::before {
-  content: "-"; /* Minus sign when active */
+  content: "-";
 }
+
+/* Table */
 
 table {
   width: auto;
   margin-top: 20px;
   font-family: poppins;
   color: white;
+  border-collapse: separate;
+  border-spacing: 10px;
 }
 
 th, td {
@@ -11179,11 +11180,11 @@ th, td {
 }
 
 th {
-  background-color: rgba(6, 100, 181, 0.5);
+  background-color: rgba(6, 100, 181, 0.3);
   color: #0dcaf0;
   font-weight: 500;
   text-align: center;
-
+  backdrop-filter: blur(6px);
 }
 
 /*--------------------------------------------------------------
@@ -11254,4 +11255,11 @@ th {
 
 #footer .credits a:hover {
   color: #009961;
+}
+
+/* Blur Background */
+
+.blurry-background {
+  backdrop-filter: blur(6px);
+  z-index: 1;
 }
