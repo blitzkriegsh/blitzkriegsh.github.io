@@ -43,7 +43,7 @@
                 </div>
             </div>
         </nav>
-        <section class="page-section clearfix">
+        <!--<section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
                     <img class="intro-img img-fluid mb-3 mb-lg-0 rounded " src="assets/img/hackathon.png" alt="..." style="width: 60%; margin-left: 50px;"/>
@@ -74,17 +74,40 @@
                               </div>
                             </div>
                           </div>
-                        <!-- <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p> -->
                         
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="page-section cta">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 order-2 order-lg-1">
                         <div class="cta-inner text-center rounded">
+                            <div class="container">
+                                <h2 class="section-heading mb-4">
+                                    <span class="event-heading-upper">Hackathon</span> <br>
+                                    <span class="event-heading-lower">Prize Pool 15K</span>
+                                </h2>
+                                <div class="accordion">
+                                  <div class="accordion-item" onclick="toggleAccordion(this)">
+                                    <div class="accordion-toggle">
+                                        Round 1 : Coding and Debugging 
+                                    </div>
+                                    <div class="accordion-content">
+                                        Coding and Debugging is an event where the participants are welcome to code in any language and utilize any features provided by the standard library of the said language. The event shall consist of 4 rounds. The difficulty of rounds increases as rounds proceed. 
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item" onclick="toggleAccordion(this)">
+                                    <div class="accordion-toggle">
+                                        Round 2 : Capture the flag (CTF)
+                                    </div>
+                                    <div class="accordion-content">
+                                        This is an event that aims to bring out the creative minds of the participants with the help of technology. The Hackathon shall be solely based on the topic of Cybersecurity. This event is conducted in two rounds. First round is a hacking round with low difficulty, the second round is with medium difficulty which is conducted only if any tie occurs.  
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             <table>
                                 <tr>
                                   <th>First Prize</th>
@@ -94,9 +117,11 @@
                                 <tr>
                                   <td>8000.00</td>
                                   <td>4000.00</td>
-                                  <td>250</td>
+                                  <td>250 Per Team</td>
                                 </tr>
                               </table>
+                                <br>
+                                <button onclick="window.location.href='target-page.html'">Register</button>
                                 <br><br>
                                 <div style="text-align: left;">
                                     <h5>Coordinators</h5>
@@ -120,6 +145,7 @@
                                 <li>Participants will be provided with systems with vscode, dev cpp, python-idle, and notepad-c++. Requests for any additional software should be relayed before 11th of February, 2024, via the student coordinator.</li>
                                 <li>We strictly prohibit the use of AI models such as Chat-GPT and the like.</li>
                                 <li>The hackathon will be conducted in a round-to-round basis spanning multiple rounds, tallying the scores in each round.</li>
+                                <li>The CTF round is based on the topic Cybersecurity.</li>
                                 <li>Moderators reserve the right to interpret and enforce these rules.</li>
                                 <li>Participants must be capable of explaining their code when required by an Examiner.</li>
                                 <li>The FINAL decision will be taken by the examiner.</li>
@@ -134,15 +160,7 @@
         <!-- ======= Footer ======= -->
         <footer id="footer">
             <div class="container">
-            <h3>Blitzkrieg</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
+            <h3>Blitzkrieg 2024</h3>
             <div class="copyright">
                 &copy; Copyright <strong><span id="currentYear"></span> <span>Blitzkrieg</span></strong>. All Rights Reserved
             </div>
