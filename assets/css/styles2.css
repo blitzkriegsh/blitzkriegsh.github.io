@@ -11195,6 +11195,7 @@ th {
   color: #fff;
   font-size: 14px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
   padding: 30px 0;
 }
 
@@ -11213,6 +11214,10 @@ th {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
+}
+
+#footer a {
+  text-decoration: none;
 }
 
 #footer .social-links {
