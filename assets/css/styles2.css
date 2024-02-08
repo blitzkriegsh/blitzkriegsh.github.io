@@ -10952,6 +10952,13 @@ p {
   font-size: 25px;
 }
 
+.cta .cta-inner h6 {
+  margin-top: 10px;
+  color: #fdb353;
+  font-weight: 600;
+  font-size: 19px;
+}
+
 .cta .cta-inner p {
   font-weight: 500;
   font-style: italic;
